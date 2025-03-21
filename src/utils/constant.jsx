@@ -1,0 +1,67 @@
+export const plants = {
+  "Snake Plant": { water: "Every 2 weeks", sunlight: "Indirect light" },
+  "Aloe Vera": { water: "Once a week", sunlight: "Direct sunlight" },
+  "Spider Plant": { water: "Once a week", sunlight: "Indirect light" },
+  "Peace Lily": { water: "Every 5-7 days", sunlight: "Low to medium light" },
+};
+
+export const styles = {
+  card: {
+    maxWidth: "400px",
+    margin: "auto",
+    padding: "20px",
+    backgroundColor: "#ffffff",
+    boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)",
+    borderRadius: "8px",
+    textAlign: "center",
+    border: "1px solid #e0e0e0",
+  },
+  title: {
+    fontSize: "20px",
+    fontWeight: "bold",
+    color: "#2d6a4f",
+    marginBottom: "10px",
+  },
+  label: {
+    fontSize: "16px",
+    fontWeight: "500",
+    display: "block",
+    marginBottom: "6px",
+  },
+  select: {
+    width: "100%",
+    padding: "10px",
+    border: "1px solid #ccc",
+    borderRadius: "6px",
+    fontSize: "14px",
+  },
+  info: {
+    marginTop: "10px",
+    padding: "10px",
+    border: "1px solid #ccc",
+    borderRadius: "6px",
+    backgroundColor: "#f9f9f9",
+  },
+  button: {
+    marginTop: "10px",
+    width: "100%",
+    backgroundColor: "#28a745",
+    color: "white",
+    padding: "10px",
+    borderRadius: "6px",
+    cursor: "pointer",
+    border: "none",
+    fontSize: "16px",
+  },
+  buttonDisabled: {
+    marginTop: "10px",
+    width: "100%",
+    backgroundColor: "#d9534f",
+    color: "white",
+    padding: "10px",
+    borderRadius: "6px",
+    cursor: "pointer",
+    border: "none",
+    fontSize: "16px",
+  },
+};
